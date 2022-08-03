@@ -1,7 +1,7 @@
 function love.load()
     Screen_width = 1920
     Screen_height = 1080
-    love.window.setMode(Screen_width, Screen_height, {fullscreen=true})
+    love.window.setMode(Screen_width, Screen_height, {fullscreen = true})
     math.randomseed(os.time())
     GameFont = love.graphics.newFont(100)
     love.graphics.setFont(GameFont)

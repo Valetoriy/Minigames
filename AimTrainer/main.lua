@@ -4,12 +4,13 @@ function love.load()
     Screen_width = 1920
     Screen_height = 1080
 
-    love.window.setMode(Screen_width, Screen_height, {fullscreen=true})
+    love.window.setMode(Screen_width, Screen_height, {fullscreen = true})
 
-    Target = {}
-    Target.x = 300
-    Target.y = 300
-    Target.radius = 100
+    Target = {
+        x = 300,
+        y = 300,
+        radius = 100,
+    }
 
     Hits = 0
     Misses = 0
